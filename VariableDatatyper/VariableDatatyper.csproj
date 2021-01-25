@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\CelciusOmregner.cs" />
+    <Compile Include="Classes\Lidt matematik.cs" />
+    <Compile Include="Classes\Rumfang.cs" />
+    <Compile Include="Classes\ValutaOmregner.cs" />
+    <Compile Include="Classes\Variable og Datatyper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
