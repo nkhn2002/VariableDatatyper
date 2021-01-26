@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VariableDatatyper.Classes
 {
-    class ValutaOmregner
+    class Valutaomregner
     {
         private void Main()
         {

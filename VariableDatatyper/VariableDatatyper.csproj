@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Alder.cs" />
     <Compile Include="Classes\CelciusOmregner.cs" />
-    <Compile Include="Classes\Lidt matematik.cs" />
+    <Compile Include="Classes\GætEtTal.cs" />
+    <Compile Include="Classes\Lidt Matematik.cs" />
+    <Compile Include="Classes\Morsekode.cs" />
+    <Compile Include="Classes\Porto.cs" />
+    <Compile Include="Classes\Pythagoras.cs" />
     <Compile Include="Classes\Rumfang.cs" />
-    <Compile Include="Classes\ValutaOmregner.cs" />
-    <Compile Include="Classes\Variable og Datatyper.cs" />
+    <Compile Include="Classes\Terningekast.cs" />
+    <Compile Include="Classes\Valutaomregner.cs" />
+    <Compile Include="Classes\Variable og datatyper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

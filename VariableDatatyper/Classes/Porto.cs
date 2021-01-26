@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace VariableDatatyper
+namespace VariableDatatyper.Classes
 {
-    class Program
+    class Porto
     {
         public static double Size;
         public static double Weight;
@@ -20,7 +20,7 @@ namespace VariableDatatyper
         public static double DKK;
         public static double EUR;
 
-        static void Main(string[] args)
+        private void Main()
         {
             Start:
 
@@ -44,6 +44,7 @@ namespace VariableDatatyper
             Size = Height + Length + Width;
 
             DKK = 0;
+            EUR = 0;
 
             if (Country.ToLower() == "danmark")
             {
@@ -65,19 +66,19 @@ namespace VariableDatatyper
                 else
                 {
                     Console.WriteLine("Det er et brev");
-                    if (Weight <= 50)
+                    if(Weight <= 50)
                     {
                         DKK = 10;
                         Console.WriteLine($"{DKK}kr");
                     }
                 }
             }
-            else if (Country.ToLower() == "europa")
+            else if(Country.ToLower() == "europa")
             {
-                if (Size > 90)
+                if(Size > 90)
                 {
                     Console.WriteLine("Det er en pakke");
-                    if (Weight <= 50)
+                    if(Weight < 50)
                     {
                         DKK = 190;
                         Console.WriteLine($"{DKK}kr");
@@ -102,8 +103,6 @@ namespace VariableDatatyper
                 Console.Clear();
                 goto Start;
             }
-
-            Console.ReadKey();
         }
     }
 }

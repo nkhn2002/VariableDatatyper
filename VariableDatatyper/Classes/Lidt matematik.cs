@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VariableDatatyper.Classes
 {
-    class Lidt_matematik
+    class Lidt_Matematik
     {
         private void Main()
         {

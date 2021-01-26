@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VariableDatatyper.Classes
 {
-    class Variable_og_Datatyper
+    class Variable_og_datatyper
     {
         private void Main()
         {
