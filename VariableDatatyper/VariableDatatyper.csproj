@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Alder.cs" />
+    <Compile Include="Classes\Array og bubblesort.cs" />
     <Compile Include="Classes\Array.cs" />
     <Compile Include="Classes\CelciusOmregner.cs" />
     <Compile Include="Classes\GætEtTal.cs" />

@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Threading;
 
-namespace VariableDatatyper
+namespace VariableDatatyper.Classes
 {
-    class Program
+    class Array_og_bubblesort
     {
-
-        static void Main(string[] args)
+        private void Main()
         {
             int[] tal = new int[100];
 
@@ -30,12 +28,10 @@ namespace VariableDatatyper
                         int temp = tal[j + 1];
                         tal[j + 1] = tal[j];
                         tal[j] = temp;
-                        Console.WriteLine(tal[j]);
                     }
                 }
 
             }
-            Console.ReadLine();
         }
     }
 }
