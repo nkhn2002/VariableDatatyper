@@ -49,6 +49,7 @@
     <Compile Include="Classes\CelciusOmregner.cs" />
     <Compile Include="Classes\GætEtTal.cs" />
     <Compile Include="Classes\Lidt Matematik.cs" />
+    <Compile Include="Classes\Lotto.cs" />
     <Compile Include="Classes\Løkker.cs" />
     <Compile Include="Classes\Morsekode.cs" />
     <Compile Include="Classes\Porto.cs" />

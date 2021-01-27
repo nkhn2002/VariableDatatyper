@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Threading;
 
-namespace VariableDatatyper
+namespace VariableDatatyper.Classes
 {
-    class Program
+    class Lotto
     {
-
-        static void Main(string[] args)
+        private void Main()
         {
             Console.WriteLine("Eksempel på kupon: 13 10 3 12 6 3 16\n");
 
