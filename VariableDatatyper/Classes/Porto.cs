@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 
-namespace VariableDatatyper.Classes
+namespace VariableDatatyper
 {
     class Porto
     {
